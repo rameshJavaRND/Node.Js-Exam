@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup </title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"></link>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="signup.js"></script>
+    </head>
+    <body >
+        <div class="container main-container border border-2 border-secondary">
+            <header class="row border-bottom border-2 border-secondary"> <h3 class="border-bottom border-2 border-secondary p-3"> Product Management </h3> 
+            <div>
+                <nav  class="navbar-right p-3 mx-auto navbar-light">
+                    <a>Home </a>
+                    <a>Aboutus</a> 
+                    <a>Contact</a>
+                </nav> 
+            </div>
+            </header>
+            <div class = "row col-md-6 mx-auto">
+                <form class = "signUp m-3 p-3 needs-validation" novalidate id="signUp"  method="post">
+                    <div class= "row d-flex flex-nowrap">
+                        <label class= "col-sm-2 form-label align-self-sm-center" for="name">Name </label>
+                        <input type="text" id="name" class="form-control m-3" placeholder="Enter name" name="name" required>
+                        <div class="invalid-feedback">
+                            Please enter the username.
+                        </div>
+                    </div>
+                    <div class= "row d-flex flex-nowrap">
+                        <label class="col-sm-2 col-form-label align-self-sm-center" for="contact" >Contact </label> 
+                        <input type="text" id="contact" class="m-3 form-control" placeholder="Enter contact" name="contact" required>
+                        <div class="invalid-feedback">
+                            Please enter the contact.
+                        </div>
+                    </div>
+                    <div class= "row d-flex flex-nowrap">
+                        <label class="col-sm-2 col-form-label align-self-sm-center" for="email" >Email</label> 
+                        <input type="email" id="email" class="m-3 form-control" placeholder="Enter email" name="email" required>
+                        <div class="invalid-feedback">
+                            Please enter the email.
+                        </div>
+                    </div>
+                    <div class= "row d-flex flex-nowrap">
+                        <label  class="col-sm-2 col-form-label align-self-sm-center" for="username">Username  </label>
+                        <input type="text" id="userName" class="m-3 form-control" placeholder="Enter Username" name="username" required>
+                        <div class="invalid-feedback">
+                            Please enter the username.
+                        </div>
+                   
+                    </div>
+                    <div class= "row d-flex flex-nowrap">
+                        <label  class="col-sm-2 form-label align-self-sm-center" for="password">Password </label>
+                        <input type="password" id="password" class="m-3 form-control" placeholder="Enter Password" name="password" required>
+                       <div class="invalid-feedback">
+                        Please enter the Password.
+                        </div>
+                    </div>
+                    <div class= "row m-3 p-2 ">  
+                        <button class="col-sm-3" type="submit">Save</button> 
+                    </div>
+                </form>   
+            </div>
+            <div class= "border-top border-2 border-secondary footer row">
+                <footer> </footer>
+            </div>
+            
+        </div>            
+    </body>
+</html>
