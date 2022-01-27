@@ -12,9 +12,9 @@ const port = process.env.PORT || 4000;
 // static user details
 const userData = {
   userId: "789789",
-  username: "cluemediator",
+  username: "ramesh",
   password: "123456",
-  name: "Clue Mediator",
+  name: "Ramesh",
   isAdmin: true
 };
 let productData = [];
